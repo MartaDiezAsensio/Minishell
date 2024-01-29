@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   mini_unset.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mdiez-as <mdiez-as@student.42barcelona.    +#+  +:+       +#+        */
+/*   By: mdiez-as <mdiez-as@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/29 10:02:13 by mdiez-as          #+#    #+#             */
-/*   Updated: 2024/01/29 10:04:43 by mdiez-as         ###   ########.fr       */
+/*   Updated: 2024/01/29 16:21:01 by mdiez-as         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ char	**whileloop_del_var(char **arr, char **rtn, char *str)
 				return (rtn);
 			}
 			j++;
-		}	
+		}
 		i++;
 	}
 	return (rtn);

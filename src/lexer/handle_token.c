@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   handle_token.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mdiez-as <mdiez-as@student.42barcelona.    +#+  +:+       +#+        */
+/*   By: mdiez-as <mdiez-as@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/29 10:03:18 by mdiez-as          #+#    #+#             */
-/*   Updated: 2024/01/29 10:04:54 by mdiez-as         ###   ########.fr       */
+/*   Updated: 2024/01/29 16:21:39 by mdiez-as         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,6 @@ int	handle_token(char *str, int i, t_lexer **lexer_list)
 		if (!add_node(NULL, token, lexer_list))
 			return (-1);
 		return (1);
-	}	
+	}
 	return (0);
 }

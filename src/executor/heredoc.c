@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   heredoc.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mdiez-as <mdiez-as@student.42barcelona.    +#+  +:+       +#+        */
+/*   By: mdiez-as <mdiez-as@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/29 10:02:55 by mdiez-as          #+#    #+#             */
-/*   Updated: 2024/01/29 10:04:50 by mdiez-as         ###   ########.fr       */
+/*   Updated: 2024/01/29 16:21:23 by mdiez-as         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,7 @@ int	send_heredoc(t_tools *tools, t_simple_cmds *cmd)
 	start = cmd->redirections;
 	sl = EXIT_SUCCESS;
 	while (cmd->redirections)
-	{	
+	{
 		if (cmd->redirections->token == LESS_LESS)
 		{
 			if (cmd->hd_file_name)

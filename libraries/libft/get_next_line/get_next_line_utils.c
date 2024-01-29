@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mdiez-as <mdiez-as@student.42barcelona.    +#+  +:+       +#+        */
+/*   By: mdiez-as <mdiez-as@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/29 09:52:15 by mdiez-as          #+#    #+#             */
-/*   Updated: 2024/01/29 09:56:51 by mdiez-as         ###   ########.fr       */
+/*   Updated: 2024/01/29 16:19:59 by mdiez-as         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,14 +32,14 @@ char	*ft_g_strjoin(char *s1, char *s2)
 	{
 		s1_2[i + j] = s2[j];
 		j++;
-	}	
+	}
 	s1_2[i + j] = '\0';
 	free(s1);
 	return (s1_2);
 }
 
 char	*ft_create_line(char *saved)
-{	
+{
 	int		line_len;
 	int		i;
 	char	*temp;
