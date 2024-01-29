@@ -5,21 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdiez-as <mdiez-as@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/18 14:12:23 by mgraaf            #+#    #+#             */
-/*   Updated: 2024/01/29 08:53:16 by mdiez-as         ###   ########.fr       */
+/*   Created: 2024/01/29 10:02:26 by mdiez-as          #+#    #+#             */
+/*   Updated: 2024/01/29 10:04:45 by mdiez-as         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
 
-/**
- * @brief 
- * Finds corresponding error and frees args;
- * @param error 
- * Number of related error:
- * 0 = If there is no string following a redirection or a pipe.
- * @param tools 
- */
 int	ft_error(int error, t_tools *tools)
 {
 	ft_putstr_fd("minishell: ", STDERR_FILENO);
